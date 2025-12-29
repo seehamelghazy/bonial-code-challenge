@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_brochure_title">Bonial brochures</string>
+    <string name="filter_nearby">Nearby (&lt; 5km)</string>
+    <string name="error_unknown">Unknown Error</string>
+    <string name="empty_brochures">No brochures found nearby.</string>
+    <string name="empty_brochures_hint">Try moving to a different location or check back later.</string>
+    <string name="error_no_connection">No response from server</string>
+    <string name="error_no_connection_hint">Please check your internet connection and try again.</string>
+    <string name="action_retry">Retry</string>
+    <string name="badge_premium">PREMIUM</string>
+    <string name="content_desc_distance">Distance</string>
+    <string name="distance_away">%.2f km away</string>
+</resources>
