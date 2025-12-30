@@ -32,8 +32,8 @@ class BrochuresViewModel(
         viewModelScope.launch {
             _state.update { it.copy(isLoading = true, error = null) }
             try {
-                val filterDist = if (_state.value.isFilterActive) 5.0 else null
-                val result = getBrochuresUseCase(filterDist)
+                val filterDistance = if (_state.value.isFilterActive) 5.0 else null
+                val result = getBrochuresUseCase(filterDistance)
                 _state.update { it.copy(brochures = result, isLoading = false) }
             } catch (e: Exception) {
                 _state.update { it.copy(error = e.message, isLoading = false) }
